@@ -1,0 +1,5 @@
+venv
+*.pyc
+*.ipynb_checkpoints
+Dockerfile
+scrapedata.py
