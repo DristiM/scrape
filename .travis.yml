@@ -1,0 +1,6 @@
+services:
+  - docker
+
+script:
+  - docker image build -t dristi87/blatest .
+  - docker container run dristi87/blatest
